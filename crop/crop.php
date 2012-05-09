@@ -5,6 +5,7 @@
  * Example cropping script
  * @copyright 2008-2009 Kelly Hallman
  * More info: http://deepliquid.com/content/Jcrop_Implementation_Theory.html
+ * RAHSRS
  */
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST')
@@ -77,7 +78,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 		<img src="demo_files/userpicture_temp3851.jpg" id="cropbox" />
 
 		<!-- This is the form that our event handler fills -->
-		<form action="crop.php" method="post" onsubmit="return checkCoords();">
+		<form action="crop.php" method="post" onSubmit="return checkCoords();">
 			<input type="text" id="x" name="x" />
 			<input type="text" id="y" name="y" />
 			<input type="text" id="w" name="w" />
